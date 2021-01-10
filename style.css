@@ -20,13 +20,14 @@ body{
 
 .top-section{
     padding: 5%;
+    height: 30%;
     
 }
 .top-left{
     width: 40%;
     float: left;
 }
-.top-left h1{
+ h1{
     color:rgb(14, 2, 68);
      font-size: 50px;
      font-family: 'Oswald', sans-serif;
@@ -36,9 +37,7 @@ body{
 }
 .top-left h5{
     color: rgb(68, 68, 68);
-    text-align: left;
       font-size: 13px;
-      padding-bottom: 15px;
 }
 
 .orange-light{
@@ -68,6 +67,7 @@ body{
 .middle-section{
     margin-top: 20%;
     padding: 5%;
+    height: 30%;
 }
 
 .middle-left{
@@ -77,18 +77,57 @@ width: 40%;
 
 .middle-right{
     width: 40%;
-    
+    float: right;
 }
 .middle-right{
     color:rgb(14, 2, 68);
      font-size: 30px;
-     font-family: 'Oswald', sans-serif;
+    
      font-weight: 900;
      margin: 0%;
      padding: 0%;
      float: right;
 }
 .paragraph{
-    color: gray;
-      font-size: 15px;
+    color: rgb(68, 68, 68);
+    font-size: 13px;
+    
+}
+
+.latest-work{
+    margin-top: 25%;
+    padding-top: 5%;
+    margin-bottom: 25%;
+    background-color: rgb(238, 234, 234);
+}
+.latest-work h1{
+    text-align: center;
+}
+.first-work{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.first-work img{
+    width: 70%;
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+.first-work h1{
+        color:rgb(14, 2, 68);
+         font-size: 40px;
+         font-family: 'Oswald', sans-serif;
+         font-weight: 900;
+         margin: 0%;
+         padding: 0%;
+         text-align: center;
+}
+
+.work-box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
 }
