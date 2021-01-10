@@ -109,12 +109,14 @@ width: 40%;
     margin-left: 5%;
     padding-left: 3%;
 }
-.first-work img{
+
+.first-work img {
     width: 70%;
     border-radius: 8px;
-    padding: 5px;
-    
+    padding: 10px;
+    padding-left: 30px;
 }
+
 .first-work h1{
         color:rgb(14, 2, 68);
          font-size: 40px;
@@ -126,8 +128,8 @@ width: 40%;
 }
 
 .work-box{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
+    box-shadow: 0px 10px 40px 0 gray;
+    border-radius: 10px;
     height: 80%;
     background-color: white;
 }
